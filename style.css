@@ -1,0 +1,139 @@
+.container{
+    width: min(100% - 2rem, 100rem);
+    margin-inline: auto;
+}
+.middle{
+    width: 65%;
+    height: 600px;
+    margin-top: 10%;
+    margin-left: 15%;
+    background-color: #e2dfdf;
+    border-radius: 20px;
+}
+.personalInformation{
+    float: left;
+    margin-top: 4%;
+    margin-left: 2%;
+}
+.name{
+    color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.skill{
+    float: left;
+    margin-top: 22%;
+    margin-left: -36%;
+}
+.skilltxt{
+    font-size: 20px;
+    
+}
+.details{
+    margin-left: -8%;
+    margin-top: 10%;
+    width: 220px;
+    display: flex;  
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.bar{
+    margin-left: -10%;
+    position: relative;
+ 
+    border: 2px solid #0d96e0;
+ 
+    border-radius: 20px;
+  
+}
+.bar div{
+    position: relative;
+    width: 0;
+    height: 9px;
+    border-radius: 10px;
+    background-color: #0d96e0;
+}
+
+#html-bar{
+    animation: html-fill 2s forwards;
+}
+@keyframes html-fill{
+    100%{
+        width: 75%;
+    }
+}
+#css-bar{
+    animation: css-fill 2s forwards;
+}
+@keyframes css-fill{
+    100%{
+        width: 70%;
+    }
+}
+#javascript-bar{
+    animation: javascript-fill 2s forwards;
+}
+@keyframes javascript-fill{
+    100%{
+        width: 50%;
+    }
+}
+#bootstrap-bar{
+    animation: bootstrap-fill 2s forwards;
+}
+@keyframes bootstrap-fill{
+    100%{
+        width: 50%;
+    }
+}
+  
+  .link{
+    background-color: gray;
+    width: 5%;
+     height: 8%;
+     margin-left: -38%;
+     border-radius: 60%;
+     margin-top: 50%;
+     float: left;
+  }
+   .link1{
+    background-color: gray;
+    width: 5%;
+     height: 8%;
+     margin-left: -32%;
+     border-radius: 60%;
+     margin-top: 50%;
+     float: left;
+   }
+   .link2{
+    background-color: gray;
+    width: 5%;
+     height: 8%;
+     margin-left: -26%;
+     border-radius: 60%;
+     margin-top: 50%;
+     float: left;
+   }
+   .link3{
+    background-color: gray;
+    width: 5%;
+     height: 8%;
+     margin-left: -20%;
+     border-radius: 60%;
+     margin-top: 50%;
+     float: left;
+   }
+   .about{
+    float: left;
+    margin-top: -17%;
+    width: 45%;
+    height: auto;
+    margin-left: 55%;
+    
+   }
+   .abouttxt{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
+
